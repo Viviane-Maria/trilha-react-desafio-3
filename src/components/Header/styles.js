@@ -15,6 +15,8 @@ export const Container = styled.div`
 export const Row = styled.div`
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    gap: .75rem;
     align-items: center;
 `;
 

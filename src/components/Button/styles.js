@@ -4,6 +4,8 @@ export const ButtonContainer = styled.button`
     background: #565656;
     border-radius: 22px;
     position: relative;
+    border: none;
+    cursor: pointer;
 
     color: #FFFFFF;
     padding: 2px 12px;
@@ -12,6 +14,7 @@ export const ButtonContainer = styled.button`
     
     ${({variant}) => variant !== "primary" && css`
         min-width: 167px;
+        max-width: 300px;
         height: 33px;
         
         background: #E4105D;
